@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="border-t border-border bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
           <div className="md:col-span-2">
             <a href="#" className="flex items-center gap-2.5 mb-4">
               <Image
@@ -59,6 +59,38 @@ export default function Footer() {
                   className="text-sm text-muted hover:text-foreground transition-colors"
                 >
                   FAQ
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/support"
+                  className="text-sm text-muted hover:text-foreground transition-colors"
+                >
+                  Support
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-sm font-semibold text-foreground mb-4">
+              Support
+            </h4>
+            <ul className="space-y-2">
+              <li>
+                <a
+                  href="/support"
+                  className="text-sm text-muted hover:text-foreground transition-colors"
+                >
+                  Help Center
+                </a>
+              </li>
+              <li>
+                <a
+                  href="mailto:support@altshot.co"
+                  className="text-sm text-muted hover:text-foreground transition-colors"
+                >
+                  Contact
                 </a>
               </li>
             </ul>
